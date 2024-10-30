@@ -10,6 +10,7 @@ function LayoutPublic() {
     </div>
     <div className="principal-wrapper">
     <Main  />
+  
     </div>
     <Footer/>
     </>

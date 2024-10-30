@@ -5,6 +5,8 @@ import { NavBarContext } from "../../../context/NavBarContext";
 import Curriculum from "../../ui/header/Curriculum";
 
 
+
+
 export default function NavBar() {
   const { navBar } = useContext(NavBarContext);
 
@@ -13,7 +15,7 @@ export default function NavBar() {
 
     <ul ref={navBar} className={style.navBarList} >
       <li>
-        <NavBarItem nombre={"Inicio"}  url={"#inicio"}/>
+        <NavBarItem nombre={"Inicio"} url={"#inicio"}  />
       </li>
       <li>
         <NavBarItem nombre={"Sobre mí"} url={"#sobre-mi"}/>

@@ -1,12 +1,15 @@
 import PropTypes from "prop-types";
 
 import style from "./NavBarItem.module.css";
+import { HashLink } from "react-router-hash-link";
 
 
 function NavBarItem({ url, nombre }) {
   return (
     
-    <a href={url} className={style.link}>{nombre}</a>
+    <HashLink to={url} className={style.link}>{nombre}</HashLink>
+    
+      
   );
 }
 
