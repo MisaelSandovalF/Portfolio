@@ -42,7 +42,7 @@ const {ref, inView} = useInView({
           image={technologies.imageTechnologiesThree}
           alt={technologies.altImageThree}
         />
-        <a href={linkDemo}>Linkedin</a>
+        <a href={linkDemo} target="_blanck">Demo</a>
         <a href={linkGitHub}>GitHub</a>
       </div>
     </div>

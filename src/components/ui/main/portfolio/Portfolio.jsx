@@ -15,14 +15,14 @@ function Portfolio() {
       imageTechnologiesThree: imagesPortfolio.js ,
       altImageThree: 'js',
     },
-    linkDemo: 'https://github.com/MisaelSandovalF/ClonGetstark.co-library-',
-    linkGitHub: 'https://github.com/MisaelSandovalF/ClonGetstark.co-library-',
+    linkDemo: 'https://getstark.netlify.app/',
+    linkGitHub: 'https://github.com/MisaelSandovalF/clon-page-getstark.co-library',
 
   }
 
   const projectTwo =  {
-    imgProyect: imagesPortfolio.proyectOne,
-    title: 'PAGINA CLON DE GETSARK.CO - LIBRARY -',
+    imgProyect: imagesPortfolio.proyectTwo,
+    title: 'ENCRIPTADOR DE FRASES ',
     technologies: {
       imageTechnologiesOne: imagesPortfolio.html ,
       altImageOne: 'html ',
@@ -31,11 +31,42 @@ function Portfolio() {
       imageTechnologiesThree: imagesPortfolio.js ,
       altImageThree: 'js',
     },
-    linkDemo: 'https://github.com/MisaelSandovalF/ClonGetstark.co-library-',
-    linkGitHub: 'https://github.com/MisaelSandovalF/ClonGetstark.co-library-',
+    linkDemo: 'https://encriptador-static-page.netlify.app/',
+    linkGitHub: 'https://github.com/MisaelSandovalF/Encriptador',
 
   }
 
+
+  const projectThree =  {
+    imgProyect: imagesPortfolio.proyectThree,
+    title: 'API RANDOM USERS',
+    technologies: {
+      imageTechnologiesOne: imagesPortfolio.html ,
+      altImageOne: 'html ',
+      imageTechnologiesTwo: imagesPortfolio.tailwind ,
+      altImageTwo: 'tailwind',
+      imageTechnologiesThree: imagesPortfolio.react ,
+      altImageThree: 'react',
+    },
+    linkDemo: 'https://misaelsandovalf.github.io/RandomUsers/',
+    linkGitHub: 'https://github.com/MisaelSandovalF/RandomUsers',
+
+  }
+  const projectFour =  {
+    imgProyect: imagesPortfolio.proyectFour,
+    title: 'ToDo',
+    technologies: {
+      imageTechnologiesOne: imagesPortfolio.html ,
+      altImageOne: 'html ',
+      imageTechnologiesTwo: imagesPortfolio.tailwind ,
+      altImageTwo: 'tailwind',
+      imageTechnologiesThree: imagesPortfolio.react ,
+      altImageThree: 'react',
+    },
+    linkDemo: 'https://misaelsandovalf.github.io/ToDo/',
+    linkGitHub: 'https://github.com/MisaelSandovalF/ToDo',
+
+  }
 
 
   return (
@@ -43,6 +74,8 @@ function Portfolio() {
         <h3>Portfolio</h3>
        <PortfolioItem {...projectOne} />
        <PortfolioItem {...projectTwo} />
+       <PortfolioItem {...projectThree} />
+       <PortfolioItem {...projectFour} />
     </div>
   )
 }

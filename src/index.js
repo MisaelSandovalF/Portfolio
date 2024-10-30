@@ -33,8 +33,10 @@ export { default as responsive} from './resources/images/competencies/responsive
 
 */ 
 
-export { default as proyectOne} from './resources/images/portfolio/proyectOne.jpg'
-export { default as proyectTwo} from './resources/images/portfolio/proyectTwo.jpg'
+export { default as proyectOne} from './resources/images/portfolio/proyectOne.webp'
+export { default as proyectTwo} from './resources/images/portfolio/proyectTwo.webp'
+export { default as proyectThree} from './resources/images/portfolio/proyectThree.webp'
+export { default as proyectFour} from './resources/images/portfolio/proyectFour.webp'
 
 
 /*
