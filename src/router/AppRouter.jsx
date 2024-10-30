@@ -1,11 +1,11 @@
-import { createBrowserRouter } from "react-router-dom"
+import {  createHashRouter } from "react-router-dom"
 
 import FrameCurriculum from "../pages/FrameCurriculum"
 import LayoutPublic from "../pages/LayoutPublic"
 
 
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
 
   {
       path: '/',
