@@ -1,0 +1,63 @@
+.skillContainer{
+
+
+  text-align: center;
+
+ 
+}
+
+.skillContainer h3 {
+    font-size: 1.5rem;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.skillContainer__boxImg{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+    
+}
+
+.skillContainer__boxImg__wrapper:nth-child(2n){
+  animation: vibrate-1 6s linear infinite both;
+}
+.skillContainer__boxImg__wrapper:nth-child(1),
+.skillContainer__boxImg__wrapper:nth-child(3),
+.skillContainer__boxImg__wrapper:nth-child(5){
+  animation: vibrate-1 4s linear infinite both;
+}
+
+
+
+ @keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+   
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+  
+   
+}
+
+.header__wrapper img {
+
+    width: 150px;
+    padding: 1rem;
+}
+
+@media (min-width: 900px) {
+    .header{
+        flex-direction: row;
+    }
+    .header__wrapper{
+        margin: auto;
+        width: 80%;
+
+   
+        
+    }
+}

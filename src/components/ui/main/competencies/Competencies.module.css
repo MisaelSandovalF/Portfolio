@@ -1,0 +1,31 @@
+
+
+.competenciesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
+ 
+
+    background-image: url('../../../../resources/images/backgroudGame.webp');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: bottom; 
+  width: 100%; 
+  
+  
+}
+
+.svgColor{
+    background-color: red;
+    fill: red !important;
+    color: red !important;
+}
+
+@media (min-width: 662px) {
+    .competenciesContainer{
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+}

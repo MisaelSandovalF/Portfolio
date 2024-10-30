@@ -1,0 +1,35 @@
+
+.navBarList{
+    display: none;
+    padding: 1rem;
+    top: 0;
+    flex-direction: column;
+   
+
+    width: 100%;
+   
+}
+
+.navBarList li {
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+@media (min-width: 900px) {
+    .navBarList{
+        display: flex;
+        
+        margin: auto 1rem;
+        justify-content: space-between;
+        flex-direction: row;
+        position: relative;
+        width: 90%;
+        height: auto;
+
+
+        
+    }
+
+   
+   
+  }

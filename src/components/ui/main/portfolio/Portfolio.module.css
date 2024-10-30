@@ -1,0 +1,9 @@
+.portfolioContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5rem 0;
+    gap: 2rem;
+    width: 100%;
+    
+
+}

@@ -1,0 +1,59 @@
+
+.imageProfile{
+  background-color: var(--black);
+
+}
+
+
+
+.imageProfile__sectionInfo{
+ color: #fff;
+}
+
+
+
+
+
+
+
+.wrapper{
+  background-image: url('../../../resources/images/olas.svg');
+ 
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 1rem 0;
+
+
+}
+
+
+@media (min-width: 662px) {
+   .imageProfile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 8px;
+   }
+   .imageProfile__sectionProfile{
+    grid-row: span 3 / span 3;
+   }
+   .imageProfile__sectionInfo{
+    display: flex;
+
+    margin-right: 1rem;
+    box-shadow: none;
+    align-items: end;
+    grid-row: span 2 / span 2;
+   }
+   .imageProfile__sectionSkills{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    margin-right: 1rem;
+  
+   }
+   
+  
+  
+  }
